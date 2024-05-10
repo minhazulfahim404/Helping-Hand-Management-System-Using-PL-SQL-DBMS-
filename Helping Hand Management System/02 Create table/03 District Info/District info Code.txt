@@ -1,0 +1,6 @@
+CREATE TABLE District_info (
+  L_District VARCHAR2(100) PRIMARY KEY,
+  L_Division VARCHAR2(100)
+);
+
+desc District_info 

@@ -1,0 +1,12 @@
+INSERT INTO Workers_Identity VALUES (5698745632, 'Male', TO_DATE('21-Aug-1986', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (3265897412, 'Male', TO_DATE('20-Sep-1984', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (2365897412, 'Female', TO_DATE('02-Feb-1990', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (3214569874, 'Female', TO_DATE('14-Jun-1996', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (1236589632, 'Male', TO_DATE('15-Aug-1985', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (1235965479, 'Male', TO_DATE('31-Jan-1988', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (3245987136, 'Male', TO_DATE('26-Aug-1993', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (6548932156, 'Male', TO_DATE('06-Jan-1990', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (7896541236, 'Female', TO_DATE('22-Jan-1997', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (7832459871, 'Male', TO_DATE('11-Feb-1991', 'DD-Mon-YY'));
+
+select * from Workers_Identity

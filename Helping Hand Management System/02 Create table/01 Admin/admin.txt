@@ -1,0 +1,8 @@
+CREATE TABLE admin (
+  A_ID NUMBER PRIMARY KEY,
+  A_FirstName VARCHAR2(50),
+  A_LastName VARCHAR2(50),
+  A_Email VARCHAR2(100)
+);
+
+CREATE INDEX idx_A_Email ON admin(A_Email);

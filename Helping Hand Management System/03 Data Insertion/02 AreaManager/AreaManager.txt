@@ -1,0 +1,13 @@
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Karim', 'Khan', 'Male', TO_DATE('14-Feb-96', 'DD-Mon-YY'), 'karimkhan@gmail.com', '1721050698', 'H41, Kotwali, Chattogram', 24101);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Kaniz', 'Fatema', 'Female', TO_DATE('20-Aug-98', 'DD-Mon-YY'), 'kanizfatema@gmail.com', '1822812203', 'H121, Housing Col, Cumilla', 24103);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Zobair', 'Khan', 'Male', TO_DATE('05-Jan-97', 'DD-Mon-YY'), 'zobairkhan@gmail.com', '1921887769', 'H18, Fatahabad, Chattogram', 24105);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Sujana', 'Khatun', 'Female', TO_DATE('30-Aug-99', 'DD-Mon-YY'), 'sujanakhatun@gmail.com', '1628069474', 'H17, Rd11, kotwali, Dhaka', 24104);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Shishir', 'Minhaz', 'Male', TO_DATE('17-Sep-98', 'DD-Mon-YY'), 'shishirminhaz@gmail.com', '1628069475', 'H42, Rd08, Block F, Bashundhara, Dhaka', 24103);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Monirul', 'Islam', 'Male', TO_DATE('21-Oct-90', 'DD-Mon-YY'), 'monirulislam@gmail.com', '1626994767', 'H256, Katasur, Mohammedpur, Dhaka', 24102);
+
+

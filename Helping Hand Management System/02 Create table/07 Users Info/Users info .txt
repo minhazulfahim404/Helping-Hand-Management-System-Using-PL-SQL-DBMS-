@@ -1,0 +1,12 @@
+CREATE TABLE Users_Info (
+    U_ID INT,
+    U_ContactNo VARCHAR(20),
+    U_FirstName VARCHAR(255),
+    U_LastName VARCHAR(255),
+    U_Gender VARCHAR(10),
+    U_Email VARCHAR(255),
+    U_DOB DATE,
+    U_Address VARCHAR(255),
+    PRIMARY KEY (U_ID, U_ContactNo)
+);
+desc Users_info

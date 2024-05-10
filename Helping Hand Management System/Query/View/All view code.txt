@@ -1,0 +1,28 @@
+QS1: What is the detailed identity information for all workers in the database?
+ANS: CREATE VIEW Worker_Identity_Info AS
+SELECT WI.W_ID AS Worker_ID, WI.W_FirstName, WI.W_LastName, WI.W_ContactNo, WI.W_Type, WI.W_Address, WI.W_NID,
+       WI2.W_Gender, WI2.W_DOB AS Worker_DOB
+FROM Workers_Info WI
+JOIN Workers_Identity WI2 ON WI.W_NID = WI2.W_NID;
+
+SELECT * FROM Worker_Identity_Info;
+
+
+
+QS2: Which area managers are associated with their respective administrative details?
+ANS: CREATE VIEW Area_Manager_Admin_Info AS
+SELECT AM.AM_ID AS Area_Manager_ID, AM.AM_FirstName, AM.AM_LastName, AM.AM_Address, AM.AM_ContactNo, AM.AM_Email,
+       AM.AM_Gender, AM.AM_DOB, AM.A_ID AS Admin_ID,
+       A.A_FirstName AS Admin_FirstName, A.A_LastName AS Admin_LastName, A.A_Email
+FROM Area_Manager AM JOIN admin A ON AM.A_ID = A.A_ID;
+SELECT * FROM Area_Manager_Admin_Info;
+
+
+QS3:What are the services assigned to each worker?
+ANS: CREATE VIEW view_Worker_Service_Info AS
+SELECT WI.*, S.*
+FROM Workers_Info WI
+JOIN Worker_Service_Info WSI ON WI.W_ID = WSI.W_ID
+JOIN Services S ON WSI.SO_ID = S.SO_ID;
+
+SELECT * FROM view_Worker_Service_Info;

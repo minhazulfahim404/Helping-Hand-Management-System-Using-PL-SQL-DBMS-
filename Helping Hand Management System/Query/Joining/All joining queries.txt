@@ -1,0 +1,19 @@
+QS1: Show all the information of a user who's postal code is 1229?
+ANS: SELECT UI.*
+FROM Users_Info UI
+JOIN Users_Location UL ON UI.U_ID = UL.U_ID
+WHERE UL.L_ID = 1229;
+
+
+QS2: Show the postal code of the user who's First Name start with "P"? 
+ANS: SELECT UI.U_FirstName as First_Name, UL.L_ID Postal_Code
+FROM Users_Info UI
+JOIN Users_Location UL ON UI.U_ID = UL.U_ID
+WHERE UI.U_FirstName LIKE 'P%';
+
+QS3: Which users, along with their associated location IDs, were born before January 1, 2002, 
+according to the data stored in the database?
+ANS: SELECT UI.*, UL.L_ID
+FROM Users_Info UI
+JOIN Users_Location UL ON UI.U_ID = UL.U_ID
+WHERE UI.U_DOB < TO_DATE('2002-01-01', 'YYYY-MM-DD');

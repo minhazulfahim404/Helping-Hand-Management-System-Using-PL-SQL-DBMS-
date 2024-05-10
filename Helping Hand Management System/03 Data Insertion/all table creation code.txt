@@ -1,0 +1,175 @@
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Fahim', 'Bari', 'fahimb@gmail.com.com');
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Rafsan', 'Gazi', 'rafsang@gmail.com');
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Tazuddin', 'Ahmed', 'tazahmed@gmail.com');
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Aishi', 'Mandal', 'aishim@gmail.com');
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Zerin', 'Farjana', 'zerinf@gmail.com');
+
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Karim', 'Khan', 'Male', TO_DATE('14-Feb-96', 'DD-Mon-YY'), 'karimkhan@gmail.com', '1721050698', 'H41, Kotwali, Chattogram', 24101);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Kaniz', 'Fatema', 'Female', TO_DATE('20-Aug-98', 'DD-Mon-YY'), 'kanizfatema@gmail.com', '1822812203', 'H121, Housing Col, Cumilla', 24103);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Zobair', 'Khan', 'Male', TO_DATE('05-Jan-97', 'DD-Mon-YY'), 'zobairkhan@gmail.com', '1921887769', 'H18, Fatahabad, Chattogram', 24105);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Sujana', 'Khatun', 'Female', TO_DATE('30-Aug-99', 'DD-Mon-YY'), 'sujanakhatun@gmail.com', '1628069474', 'H17, Rd11, kotwali, Dhaka', 24104);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Shishir', 'Minhaz', 'Male', TO_DATE('17-Sep-98', 'DD-Mon-YY'), 'shishirminhaz@gmail.com', '1628069475', 'H42, Rd08, Block F, Bashundhara, Dhaka', 24103);
+
+INSERT INTO Area_Manager (AM_ID, AM_FirstName, AM_LastName, AM_Gender, AM_DOB, AM_Email, AM_ContactNo, AM_Address, A_ID) VALUES (areaManager_seq.NEXTVAL, 'Monirul', 'Islam', 'Male', TO_DATE('21-Oct-90', 'DD-Mon-YY'), 'monirulislam@gmail.com', '1626994767', 'H256, Katasur, Mohammedpur, Dhaka', 24102);
+
+
+
+INSERT INTO District_info VALUES ('Dhaka', 'Dhaka');
+INSERT INTO District_info VALUES ('Faridpur', 'Dhaka');
+INSERT INTO District_info VALUES ('Gazipur', 'Dhaka');
+INSERT INTO District_info VALUES ('Gopalganj', 'Dhaka');
+INSERT INTO District_info VALUES ('Kishoreganj', 'Dhaka');
+INSERT INTO District_info VALUES ('Madaripur', 'Dhaka');
+INSERT INTO District_info VALUES ('Manikganj', 'Dhaka');
+INSERT INTO District_info VALUES ('Rajbari', 'Dhaka');
+INSERT INTO District_info VALUES ('Narsingdi', 'Dhaka');
+INSERT INTO District_info VALUES ('Shariatpur', 'Dhaka');
+INSERT INTO District_info VALUES ('Tangail', 'Dhaka');
+INSERT INTO District_info VALUES ('Munshiganj', 'Dhaka');
+INSERT INTO District_info VALUES ('Narayanganj', 'Dhaka');
+INSERT INTO District_info VALUES ('Brahmanbaria', 'Chattogram');
+INSERT INTO District_info VALUES ('Cumilla', 'Chattogram');
+INSERT INTO District_info VALUES ('Chandpur', 'Chattogram');
+INSERT INTO District_info VALUES ('Lakshmipur', 'Chattogram');
+INSERT INTO District_info VALUES ('Noakhali', 'Chattogram');
+INSERT INTO District_info VALUES ('Feni', 'Chattogram');
+INSERT INTO District_info VALUES ('Khagrachhari', 'Chattogram');
+INSERT INTO District_info VALUES ('Rangamati', 'Chattogram');
+INSERT INTO District_info VALUES ('Bandarban', 'Chattogram');
+INSERT INTO District_info VALUES ('Chattogram', 'Chattogram');
+INSERT INTO District_info VALUES ('Coxs Bazar', 'Chattogram');
+
+
+
+INSERT INTO Service_Location VALUES (1229, 'Bashundhara RA', 'Dhaka', 242007);
+INSERT INTO Service_Location  VALUES (1207, 'Mohammedpur', 'Dhaka', 242008);
+INSERT INTO Service_Location  VALUES (1230, 'Uttara', 'Dhaka', 242007);
+INSERT INTO Service_Location VALUES (1000, 'Kotwali', 'Chattogram', 242003);
+INSERT INTO Service_Location VALUES (1213, 'Banani', 'Dhaka', 242007);
+INSERT INTO Service_Location VALUES (4335, 'Fatahabad', 'Chattogram', 242005);
+INSERT INTO Service_Location VALUES (4000, 'Kotwali', 'Dhaka', 242006);
+INSERT INTO Service_Location VALUES (3510, 'Chandina', 'Cumilla', 242004);
+INSERT INTO Service_Location VALUES (3520, 'Burichang', 'Cumilla', 242004);
+INSERT INTO Service_Location VALUES (1209, 'Dhanmondi', 'Dhaka', 242008);
+
+
+
+
+INSERT INTO Workers_Identity VALUES (5698745632, 'Male', TO_DATE('21-Aug-1986', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (3265897412, 'Male', TO_DATE('20-Sep-1984', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (2365897412, 'Female', TO_DATE('02-Feb-1990', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (3214569874, 'Female', TO_DATE('14-Jun-1996', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (1236589632, 'Male', TO_DATE('15-Aug-1985', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (1235965479, 'Male', TO_DATE('31-Jan-1988', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (3245987136, 'Male', TO_DATE('26-Aug-1993', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (6548932156, 'Male', TO_DATE('06-Jan-1990', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (7896541236, 'Female', TO_DATE('22-Jan-1997', 'DD-Mon-YY'));
+INSERT INTO Workers_Identity  VALUES (7832459871, 'Male', TO_DATE('11-Feb-1991', 'DD-Mon-YY'));
+
+
+INSERT INTO Workers_Info VALUES (243001, 'Karim', 'Khan', 'Electrician', '1721994455', 'H45, Kuratoli, Dhaka', 5698745632, 1229);
+INSERT INTO Workers_Info VALUES (243002, 'Abul', 'Hossain', 'Laundry Man', '1725669988', 'H21, Jagannathpur, Dhaka', 3265897412, 1229);
+INSERT INTO Workers_Info VALUES (243003, 'Zorina', 'Khatun', 'Maid', '1721001100', 'H88, Sector 11, Uttara, Dhaka', 2365897412, 1230);
+INSERT INTO Workers_Info VALUES (243004, 'Amena', 'Begum', 'Maid', '1721006694', 'H103, Rd11, Nikunja, Dhaka', 3214569874, 1229);
+INSERT INTO Workers_Info VALUES (243005, 'Russel', 'Mia', 'Cleaner', '1698745632', 'H81, Katasur, Mohammedpur', 1236589632, 1207);
+INSERT INTO Workers_Info VALUES (243006, 'Sumon', 'Molla', 'Plumber', '1369874569', 'H30, Rd18, Dhanmondi21, Dhaka', 1235965479, 1209);
+INSERT INTO Workers_Info VALUES (243007, 'Rohim', 'Uddin', 'Home Shifting', '1389657412', 'H21, Rd19, Banani,Dhaka', 3245987136, 1213);
+INSERT INTO Workers_Info VALUES (243008, 'Abul', 'Hossain', 'Driver', '1378965412', 'H66, Chandina, Cumilla, Chattogram', 6548932156, 3510);
+INSERT INTO Workers_Info VALUES (243009, 'Fatema', 'Khatun', 'Maid', '1869541236', 'H32, Rd23, Kotwali, Dhaka', 7896541236, 4000);
+INSERT INTO Workers_Info VALUES (243010, 'Akram', 'Hossain', 'Home Shifting', '1869578965', 'H113, Fatahabad, Hathajari, Chattogram', 7832459871, 4335);
+
+
+
+
+
+INSERT INTO Users_Info VALUES (244001, '01721786523', 'Anik', 'Sen', 'Male', 'aniks@gmail.com', TO_DATE('30-Aug-99', 'DD-Mon-YY'), 'H21, Rd02, Bashundhara, Dhaka');
+
+INSERT INTO Users_Info VALUES (244002, '01721741524', 'Fazle', 'Rabbi', 'Male', 'fazles@gmail.com', TO_DATE('17-Sep-98', 'DD-Mon-YY'), 'H56,Rd10, Nikunja, Dhaka');
+
+INSERT INTO Users_Info VALUES (244002, '01721741500', 'Fazle', 'Rabbi', 'Male', 'fazles@gmail.com', TO_DATE('17-Sep-98', 'DD-Mon-YY'), 'H56,Rd10, Nikunja, Dhaka');
+
+INSERT INTO Users_Info VALUES (244003, '01721366525', 'Prajukta', 'Majumder', 'Female', 'prajuktam@gmail.com', TO_DATE('21-Aug-02', 'DD-Mon-YY'), 'H23, Rd23, Sector11, Uttara, Dhaka');
+
+INSERT INTO Users_Info VALUES (244004, '01721712326', 'Pranto', 'Islam', 'Male', 'prantoi@gmail.com', TO_DATE('26-Feb-01', 'DD-Mon-YY'), 'H99, Banani, Dhaka');
+
+INSERT INTO Users_Info VALUES (244005, '01721786458', 'Tomal', 'Paul', 'Male', 'tomalp@gmail.com', TO_DATE('31-Jan-00', 'DD-Mon-YY'), 'H88, Bashundharai, Dhaka');
+
+INSERT INTO Users_Info VALUES (244006, '01712986528', 'Zakaria', 'Hossain', 'Male', 'zakariah@gmail.com', TO_DATE('17-Jan-99', 'DD-Mon-YY'), 'H22, Rd21, Uttara, Dhaka');
+
+INSERT INTO Users_Info VALUES (244007, '01721756529', 'Mim', 'Akter', 'Female', 'mima@gmail.com', TO_DATE('09-Feb-99', 'DD-Mon-YY'), 'H11, Dhanmondi21, Dhaka');
+
+INSERT INTO Users_Info VALUES (244008, '01769871230', 'Mahjabin', 'Chowdhury', 'Female', 'mahjabinc@gmail.com', TO_DATE('29-Mar-99', 'DD-Mon-YY'), 'H23,Mohammedpur, Dhaka');
+
+INSERT INTO Users_Info VALUES (244008, '01769871220', 'Mahjabin', 'Chowdhury', 'Female', 'mahjabinc@gmail.com', TO_DATE('29-Mar-99', 'DD-Mon-YY'), 'H23,Mohammedpur, Dhaka');
+
+INSERT INTO Users_Info VALUES (244009, '01721896541', 'Faria', 'Tabassum', 'Female', 'fariat@gmail.com', TO_DATE('11-Apr-99', 'DD-Mon-YY'), 'H78, Banani, Dhaka');
+
+INSERT INTO Users_Info VALUES (244010, '01721732172', 'Qamrol', 'Islam', 'Male', 'qamroli@gmail.com', TO_DATE('01-May-99', 'DD-Mon-YY'), 'H35, Chandina, Cumilla, Dhaka');
+
+
+
+
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244001, 1229);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244002, 1229);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244003, 1230);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244004, 1213);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244005, 1229);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244006, 1230);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244007, 1209);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244008, 1207);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244009, 1213);
+INSERT INTO Users_Location (U_ID, L_ID) VALUES (244010, 3510);
+
+
+
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Cleaning', 'AC, Sofa, Fan, Car, Home etc');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Laundry', 'Washing Sofa, car, dress etc');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Home Shifting', 'Shifting home with care');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Maid', 'Cleaning kitchen, washing clothes, cooking etc');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Electrician', 'Electricity problem');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Plumber', 'Repair gas, water pipes');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Driver', 'Transportation Service');
+
+
+
+
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244001, 50005);
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244002, 50002);
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244003, 50004);
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244004, 50003);
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244005, 50005);
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244006, 50004);
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244007, 50006);
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244008, 50001);
+INSERT INTO User_Service_Info (U_ID, SO_ID) VALUES (244009, 50003);
+
+
+
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50001, 243005);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50002, 243002);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50003, 243007);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50004, 243003);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50005, 243001);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50006, 243006);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50004, 243004);
+
+

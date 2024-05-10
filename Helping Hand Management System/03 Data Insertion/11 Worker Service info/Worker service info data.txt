@@ -1,0 +1,9 @@
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50001, 243005);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50002, 243002);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50003, 243007);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50004, 243003);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50005, 243001);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50006, 243006);
+INSERT INTO Worker_Service_Info (SO_ID, W_ID) VALUES (50004, 243004);
+
+select * from Worker_Service_Info

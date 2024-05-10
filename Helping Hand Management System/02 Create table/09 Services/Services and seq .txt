@@ -1,0 +1,10 @@
+CREATE TABLE Services (
+    SO_ID INT PRIMARY KEY,
+    SO_Type VARCHAR2(255),
+    SO_Description VARCHAR2(4000)
+);
+CREATE SEQUENCE seq_services_id
+    START WITH 50001
+    INCREMENT BY 1
+    NOCYCLE;
+desc Services

@@ -1,0 +1,13 @@
+CREATE TABLE Workers_Info (
+    W_ID INT PRIMARY KEY,
+    W_FirstName VARCHAR(255),
+    W_LastName VARCHAR(255),
+    W_ContactNo VARCHAR(20),
+    W_Type VARCHAR(50),
+    W_Address VARCHAR(255),
+    W_NID INT,
+    L_ID INT,
+    FOREIGN KEY (W_NID) REFERENCES Workers_Identity(W_NID), 
+    FOREIGN KEY (L_ID) REFERENCES Service_Location(L_ID)    
+);
+desc workers_Info

@@ -1,0 +1,25 @@
+INSERT INTO Users_Info VALUES (244001, '01721786523', 'Anik', 'Sen', 'Male', 'aniks@gmail.com', TO_DATE('30-Aug-99', 'DD-Mon-YY'), 'H21, Rd02, Bashundhara, Dhaka');
+
+INSERT INTO Users_Info VALUES (244002, '01721741524', 'Fazle', 'Rabbi', 'Male', 'fazles@gmail.com', TO_DATE('17-Sep-98', 'DD-Mon-YY'), 'H56,Rd10, Nikunja, Dhaka');
+
+INSERT INTO Users_Info VALUES (244002, '01721741500', 'Fazle', 'Rabbi', 'Male', 'fazles@gmail.com', TO_DATE('17-Sep-98', 'DD-Mon-YY'), 'H56,Rd10, Nikunja, Dhaka');
+
+INSERT INTO Users_Info VALUES (244003, '01721366525', 'Prajukta', 'Majumder', 'Female', 'prajuktam@gmail.com', TO_DATE('21-Aug-02', 'DD-Mon-YY'), 'H23, Rd23, Sector11, Uttara, Dhaka');
+
+INSERT INTO Users_Info VALUES (244004, '01721712326', 'Pranto', 'Islam', 'Male', 'prantoi@gmail.com', TO_DATE('26-Feb-01', 'DD-Mon-YY'), 'H99, Banani, Dhaka');
+
+INSERT INTO Users_Info VALUES (244005, '01721786458', 'Tomal', 'Paul', 'Male', 'tomalp@gmail.com', TO_DATE('31-Jan-00', 'DD-Mon-YY'), 'H88, Bashundharai, Dhaka');
+
+INSERT INTO Users_Info VALUES (244006, '01712986528', 'Zakaria', 'Hossain', 'Male', 'zakariah@gmail.com', TO_DATE('17-Jan-99', 'DD-Mon-YY'), 'H22, Rd21, Uttara, Dhaka');
+
+INSERT INTO Users_Info VALUES (244007, '01721756529', 'Mim', 'Akter', 'Female', 'mima@gmail.com', TO_DATE('09-Feb-99', 'DD-Mon-YY'), 'H11, Dhanmondi21, Dhaka');
+
+INSERT INTO Users_Info VALUES (244008, '01769871230', 'Mahjabin', 'Chowdhury', 'Female', 'mahjabinc@gmail.com', TO_DATE('29-Mar-99', 'DD-Mon-YY'), 'H23,Mohammedpur, Dhaka');
+
+INSERT INTO Users_Info VALUES (244008, '01769871220', 'Mahjabin', 'Chowdhury', 'Female', 'mahjabinc@gmail.com', TO_DATE('29-Mar-99', 'DD-Mon-YY'), 'H23,Mohammedpur, Dhaka');
+
+INSERT INTO Users_Info VALUES (244009, '01721896541', 'Faria', 'Tabassum', 'Female', 'fariat@gmail.com', TO_DATE('11-Apr-99', 'DD-Mon-YY'), 'H78, Banani, Dhaka');
+
+INSERT INTO Users_Info VALUES (244010, '01721732172', 'Qamrol', 'Islam', 'Male', 'qamroli@gmail.com', TO_DATE('01-May-99', 'DD-Mon-YY'), 'H35, Chandina, Cumilla, Dhaka');
+
+select * from users_info

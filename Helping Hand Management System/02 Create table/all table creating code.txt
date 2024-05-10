@@ -1,0 +1,124 @@
+CREATE TABLE admin (
+  A_ID NUMBER PRIMARY KEY,
+  A_FirstName VARCHAR2(50),
+  A_LastName VARCHAR2(50),
+  A_Email VARCHAR2(100)
+);
+
+CREATE INDEX idx_A_Email ON admin(A_Email);
+CREATE SEQUENCE admin_seq
+START WITH 24101
+INCREMENT BY 1
+NOCACHE
+NOCYCLE;
+
+
+CREATE TABLE Area_Manager(AM_ID NUMBER PRIMARY KEY, AM_FirstName VARCHAR2(50),AM_LastName VARCHAR2(50), AM_Address VARCHAR2(100), AM_ContactNo VARCHAR2(20), AM_Email VARCHAR2(100), AM_Gender VARCHAR2(10), AM_DOB DATE, A_ID NUMBER,
+  CONSTRAINT fk_admin_id FOREIGN KEY (A_ID) REFERENCES admin(A_ID));
+
+CREATE INDEX idx_AM_Email ON Area_Manager(AM_Email);
+
+CREATE SEQUENCE areaManager_seq
+START WITH 242001
+INCREMENT BY 1
+NOCACHE
+NOCYCLE;
+
+
+
+CREATE TABLE District_info (
+  L_District VARCHAR2(100) PRIMARY KEY,
+  L_Division VARCHAR2(100)
+);
+
+desc District_info 
+
+
+CREATE TABLE Service_Location (
+    L_ID INT PRIMARY KEY,
+    L_Name VARCHAR(255), 
+    L_District VARCHAR(255),
+    AM_ID INT,
+    FOREIGN KEY (L_District) REFERENCES District_Info(L_District),
+    FOREIGN KEY (AM_ID) REFERENCES Area_Manager(AM_ID)
+);
+
+CREATE INDEX idx_L_Name ON Service_Location(L_Name);
+
+
+CREATE TABLE Workers_Identity (
+    W_NID INT PRIMARY KEY,
+    W_Gender VARCHAR(10),
+    W_DOB DATE
+);
+desc Workers_Identity 
+
+
+CREATE TABLE Workers_Info (
+    W_ID INT PRIMARY KEY,
+    W_FirstName VARCHAR(255),
+    W_LastName VARCHAR(255),
+    W_ContactNo VARCHAR(20),
+    W_Type VARCHAR(50),
+    W_Address VARCHAR(255),
+    W_NID INT,
+    L_ID INT,
+    FOREIGN KEY (W_NID) REFERENCES Workers_Identity(W_NID), 
+    FOREIGN KEY (L_ID) REFERENCES Service_Location(L_ID)    
+);
+desc workers_Info
+
+
+CREATE TABLE Users_Info (
+    U_ID INT,
+    U_ContactNo VARCHAR(20),
+    U_FirstName VARCHAR(255),
+    U_LastName VARCHAR(255),
+    U_Gender VARCHAR(10),
+    U_Email VARCHAR(255),
+    U_DOB DATE,
+    U_Address VARCHAR(255),
+    PRIMARY KEY (U_ID, U_ContactNo)
+);
+desc Users_info
+
+
+
+
+CREATE TABLE Users_Location (
+    U_ID INT,
+    L_ID INT,
+    PRIMARY KEY (U_ID, L_ID)
+);
+desc Users_Location
+
+
+
+CREATE TABLE Services (
+    SO_ID INT PRIMARY KEY,
+    SO_Type VARCHAR2(255),
+    SO_Description VARCHAR2(4000)
+);
+CREATE SEQUENCE seq_services_id
+    START WITH 50001
+    INCREMENT BY 1
+    NOCYCLE;
+desc Services
+
+
+CREATE TABLE User_Service_Info (
+    U_ID INT,
+    SO_ID INT,
+    PRIMARY KEY (U_ID, SO_ID)
+);
+desc User_Service_Info
+
+
+CREATE TABLE Worker_Service_Info (
+    SO_ID INT,
+    W_ID INT,
+    PRIMARY KEY (SO_ID, W_ID)
+);
+
+desc Worker_Service_info
+

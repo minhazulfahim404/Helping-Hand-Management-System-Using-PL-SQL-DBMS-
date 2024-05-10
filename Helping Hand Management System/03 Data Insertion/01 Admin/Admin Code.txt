@@ -1,0 +1,5 @@
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Fahim', 'Bari', 'fahimb@gmail.com.com');
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Rafsan', 'Gazi', 'rafsang@gmail.com');
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Tazuddin', 'Ahmed', 'tazahmed@gmail.com');
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Aishi', 'Mandal', 'aishim@gmail.com');
+INSERT INTO admin VALUES (admin_seq.NEXTVAL, 'Zerin', 'Farjana', 'zerinf@gmail.com');

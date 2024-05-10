@@ -1,0 +1,14 @@
+QS1: What is the full name of the administrator with ID 24101?
+
+ANS: SELECT A_FirstName || ' ' || A_LastName AS Full_Name FROM admin WHERE A_ID = 24103;
+
+
+QS2:When was the area manager named "Shishir Minhaz" born?
+ANS: SELECT TO_CHAR(AM_DOB, 'DD-Mon-YY') AS Date_of_Birth FROM Area_Manager 
+WHERE AM_FirstName = 'Shishir' AND AM_LastName = 'Minhaz';
+
+
+
+QS3: What is the length of the email address for the administrator with the last name "Ahmed"?
+
+ANS: SELECT LENGTH(A_Email) AS Email_Length FROM admin WHERE A_LastName = 'Ahmed';

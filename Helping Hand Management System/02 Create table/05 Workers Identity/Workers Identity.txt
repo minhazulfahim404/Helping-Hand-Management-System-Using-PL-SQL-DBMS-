@@ -1,0 +1,6 @@
+CREATE TABLE Workers_Identity (
+    W_NID INT PRIMARY KEY,
+    W_Gender VARCHAR(10),
+    W_DOB DATE
+);
+desc Workers_Identity 

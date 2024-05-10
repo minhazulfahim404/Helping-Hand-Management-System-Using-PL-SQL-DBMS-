@@ -1,0 +1,7 @@
+CREATE TABLE Worker_Service_Info (
+    SO_ID INT,
+    W_ID INT,
+    PRIMARY KEY (SO_ID, W_ID)
+);
+
+desc Worker_Service_info

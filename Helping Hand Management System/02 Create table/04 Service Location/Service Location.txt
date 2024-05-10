@@ -1,0 +1,10 @@
+CREATE TABLE Service_Location (
+    L_ID INT PRIMARY KEY,
+    L_Name VARCHAR(255), 
+    L_District VARCHAR(255),
+    AM_ID INT,
+    FOREIGN KEY (L_District) REFERENCES District_Info(L_District),
+    FOREIGN KEY (AM_ID) REFERENCES Area_Manager(AM_ID)
+);
+
+CREATE INDEX idx_L_Name ON Service_Location(L_Name);

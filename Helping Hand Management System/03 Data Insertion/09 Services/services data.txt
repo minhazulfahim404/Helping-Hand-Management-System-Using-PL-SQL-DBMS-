@@ -1,0 +1,22 @@
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Cleaning', 'AC, Sofa, Fan, Car, Home etc');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Laundry', 'Washing Sofa, car, dress etc');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Home Shifting', 'Shifting home with care');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Maid', 'Cleaning kitchen, washing clothes, cooking etc');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Electrician', 'Electricity problem');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Plumber', 'Repair gas, water pipes');
+
+INSERT INTO Services (SO_ID, SO_Type, SO_Description) 
+VALUES (seq_services_id.NEXTVAL, 'Driver', 'Transportation Service');
+
+select * from services

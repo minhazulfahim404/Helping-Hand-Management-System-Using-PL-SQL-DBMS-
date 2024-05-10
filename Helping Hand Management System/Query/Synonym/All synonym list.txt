@@ -1,0 +1,10 @@
+QS1:  What are the details of female users stored in the system?
+ANS: CREATE SYNONYM UserInfo_Synonym FOR Users_Info;
+SELECT * FROM UserInfo_Synonym WHERE U_Gender = 'Female';
+
+
+QS2: What are the unique addresses of users stored in the system?
+ANS: SELECT DISTINCT U_Address FROM UserInfo_Synonym;
+
+QS3:  Who are the users located in the area with ID 1230?
+ANS: SELECT U_FirstName, U_LastName FROM UserInfo_Synonym WHERE U_ID IN (SELECT U_ID FROM Users_Location WHERE L_ID = 1230);

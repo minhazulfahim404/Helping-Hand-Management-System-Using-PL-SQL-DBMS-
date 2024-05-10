@@ -1,0 +1,6 @@
+CREATE TABLE Users_Location (
+    U_ID INT,
+    L_ID INT,
+    PRIMARY KEY (U_ID, L_ID)
+);
+desc Users_Location

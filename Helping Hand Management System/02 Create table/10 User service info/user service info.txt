@@ -1,0 +1,6 @@
+CREATE TABLE User_Service_Info (
+    U_ID INT,
+    SO_ID INT,
+    PRIMARY KEY (U_ID, SO_ID)
+);
+desc User_Service_Info

@@ -1,0 +1,12 @@
+INSERT INTO Workers_Info VALUES (243001, 'Karim', 'Khan', 'Electrician', '1721994455', 'H45, Kuratoli, Dhaka', 5698745632, 1229);
+INSERT INTO Workers_Info VALUES (243002, 'Abul', 'Hossain', 'Laundry Man', '1725669988', 'H21, Jagannathpur, Dhaka', 3265897412, 1229);
+INSERT INTO Workers_Info VALUES (243003, 'Zorina', 'Khatun', 'Maid', '1721001100', 'H88, Sector 11, Uttara, Dhaka', 2365897412, 1230);
+INSERT INTO Workers_Info VALUES (243004, 'Amena', 'Begum', 'Maid', '1721006694', 'H103, Rd11, Nikunja, Dhaka', 3214569874, 1229);
+INSERT INTO Workers_Info VALUES (243005, 'Russel', 'Mia', 'Cleaner', '1698745632', 'H81, Katasur, Mohammedpur', 1236589632, 1207);
+INSERT INTO Workers_Info VALUES (243006, 'Sumon', 'Molla', 'Plumber', '1369874569', 'H30, Rd18, Dhanmondi21, Dhaka', 1235965479, 1209);
+INSERT INTO Workers_Info VALUES (243007, 'Rohim', 'Uddin', 'Home Shifting', '1389657412', 'H21, Rd19, Banani,Dhaka', 3245987136, 1213);
+INSERT INTO Workers_Info VALUES (243008, 'Abul', 'Hossain', 'Driver', '1378965412', 'H66, Chandina, Cumilla, Chattogram', 6548932156, 3510);
+INSERT INTO Workers_Info VALUES (243009, 'Fatema', 'Khatun', 'Maid', '1869541236', 'H32, Rd23, Kotwali, Dhaka', 7896541236, 4000);
+INSERT INTO Workers_Info VALUES (243010, 'Akram', 'Hossain', 'Home Shifting', '1869578965', 'H113, Fatahabad, Hathajari, Chattogram', 7832459871, 4335);
+
+select * from  workers_info

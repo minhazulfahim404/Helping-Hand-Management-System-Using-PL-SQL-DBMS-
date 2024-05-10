@@ -1,0 +1,10 @@
+INSERT INTO Service_Location VALUES (1229, 'Bashundhara RA', 'Dhaka', 242007);
+INSERT INTO Service_Location  VALUES (1207, 'Mohammedpur', 'Dhaka', 242008);
+INSERT INTO Service_Location  VALUES (1230, 'Uttara', 'Dhaka', 242007);
+INSERT INTO Service_Location VALUES (1000, 'Kotwali', 'Chattogram', 242003);
+INSERT INTO Service_Location VALUES (1213, 'Banani', 'Dhaka', 242007);
+INSERT INTO Service_Location VALUES (4335, 'Fatahabad', 'Chattogram', 242005);
+INSERT INTO Service_Location VALUES (4000, 'Kotwali', 'Dhaka', 242006);
+INSERT INTO Service_Location VALUES (3510, 'Chandina', 'Cumilla', 242004);
+INSERT INTO Service_Location VALUES (3520, 'Burichang', 'Cumilla', 242004);
+INSERT INTO Service_Location VALUES (1209, 'Dhanmondi', 'Dhaka', 242008);

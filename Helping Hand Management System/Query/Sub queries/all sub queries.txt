@@ -1,0 +1,28 @@
+QS1: Which service location has the highest number of workers?
+ANS: SELECT L_ID
+FROM (
+    SELECT L_ID, COUNT(*) AS num_workers
+    FROM Workers_Info
+    GROUP BY L_ID
+    ORDER BY COUNT(*) DESC
+)
+WHERE ROWNUM = 1;
+
+
+QS2: Who are the users located in location ID 1229?
+ANS: SELECT U_ID, U_FirstName, U_LastName
+FROM Users_Info
+WHERE U_ID IN (
+    SELECT U_ID
+    FROM Users_Location
+    WHERE L_ID = 1229
+);
+
+
+QS3: Which users were born before January 1, 2002 according to the Users_Info table?
+ANS: SELECT *
+FROM Users_Info
+WHERE U_DOB < (
+    SELECT TO_DATE('2002-01-01', 'YYYY-MM-DD')
+    FROM dual
+);

@@ -1,0 +1,5 @@
+create user hhms identified by password;
+grant connect, resource, create view, unlimited tablespace to hhms;
+GRANT CREATE SYNONYM TO hhms;
+ALTER USER hhms DEFAULT TABLESPACE USERS;
+ALTER USER hhms TEMPORARY TABLESPACE TEMP;

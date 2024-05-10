@@ -1,0 +1,15 @@
+QS1: What is the average age of all workers?
+ANS: SELECT ROUND(AVG(MONTHS_BETWEEN(SYSDATE, W_DOB) / 12), 2) AS average_age
+FROM Workers_Identity;
+
+
+QS2: What is the total number of workers in each gender category?
+ANS: SELECT W_Gender, COUNT(*) AS num_workers
+FROM Workers_Identity
+GROUP BY W_Gender;
+
+
+QS3: How many workers share the same first name?
+ANS: SELECT W_FirstName, COUNT(*) AS num_workers
+FROM Workers_Info
+GROUP BY W_FirstName;
